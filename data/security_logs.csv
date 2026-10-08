@@ -1,0 +1,179 @@
+timestamp,source_ip,username,event_type,status,resource,message
+2026-09-01T08:00:00+00:00,192.0.2.10,user1,http request,blocked,/home,Normal fictional request
+2026-09-01T11:07:00+00:00,192.0.2.10,user2,login,success,/dashboard,Normal fictional request
+2026-09-01T14:14:00+00:00,192.0.2.10,user3,login,success,/reports,Normal fictional request
+2026-09-01T17:21:00+00:00,198.51.100.20,user4,logout,success,/api/status,Normal fictional request
+2026-09-01T20:28:00+00:00,198.51.100.20,user5,http request,success,/home,Normal fictional request
+2026-09-01T23:35:00+00:00,198.51.100.20,user6,login,blocked,/dashboard,Normal fictional request
+2026-09-02T02:42:00+00:00,203.0.113.30,user7,logout,success,/reports,Normal fictional request
+2026-09-02T05:49:00+00:00,203.0.113.30,user8,login,success,/api/status,Normal fictional request
+2026-09-02T08:56:00+00:00,203.0.113.30,user1,http request,success,/home,Normal fictional request
+2026-09-02T11:03:00+00:00,192.0.2.40,user2,logout,success,/dashboard,Normal fictional request
+2026-09-02T14:10:00+00:00,192.0.2.40,user3,login,blocked,/reports,Normal fictional request
+2026-09-02T17:17:00+00:00,192.0.2.40,user4,login,success,/api/status,Normal fictional request
+2026-09-02T20:24:00+00:00,198.51.100.50,user5,http request,success,/home,Normal fictional request
+2026-09-02T23:31:00+00:00,198.51.100.50,user6,login,success,/dashboard,Normal fictional request
+2026-09-03T02:38:00+00:00,198.51.100.50,user7,login,success,/reports,Normal fictional request
+2026-09-03T05:45:00+00:00,203.0.113.60,user8,logout,blocked,/api/status,Normal fictional request
+2026-09-03T08:52:00+00:00,203.0.113.60,user1,http request,success,/home,Normal fictional request
+2026-09-03T11:59:00+00:00,203.0.113.60,user2,login,success,/dashboard,Normal fictional request
+2026-09-03T14:06:00+00:00,192.0.2.10,user3,logout,success,/reports,Normal fictional request
+2026-09-03T17:13:00+00:00,192.0.2.10,user4,login,success,/api/status,Normal fictional request
+2026-09-03T20:20:00+00:00,192.0.2.10,user5,http request,blocked,/home,Normal fictional request
+2026-09-03T23:27:00+00:00,198.51.100.20,user6,logout,success,/dashboard,Normal fictional request
+2026-09-04T02:34:00+00:00,198.51.100.20,user7,login,success,/reports,Normal fictional request
+2026-09-04T05:41:00+00:00,198.51.100.20,user8,login,success,/api/status,Normal fictional request
+2026-09-04T08:48:00+00:00,203.0.113.30,user1,http request,success,/home,Normal fictional request
+2026-09-04T11:55:00+00:00,203.0.113.30,user2,login,blocked,/dashboard,Normal fictional request
+2026-09-04T14:02:00+00:00,203.0.113.30,user3,login,success,/reports,Normal fictional request
+2026-09-04T17:09:00+00:00,192.0.2.40,user4,logout,success,/api/status,Normal fictional request
+2026-09-04T20:16:00+00:00,192.0.2.40,user5,http request,success,/home,Normal fictional request
+2026-09-04T23:23:00+00:00,192.0.2.40,user6,login,success,/dashboard,Normal fictional request
+2026-09-05T02:30:00+00:00,198.51.100.50,user7,logout,blocked,/reports,Normal fictional request
+2026-09-05T05:37:00+00:00,198.51.100.50,user8,login,success,/api/status,Normal fictional request
+2026-09-05T08:44:00+00:00,198.51.100.50,user1,http request,success,/home,Normal fictional request
+2026-09-05T11:51:00+00:00,203.0.113.60,user2,logout,success,/dashboard,Normal fictional request
+2026-09-05T14:58:00+00:00,203.0.113.60,user3,login,success,/reports,Normal fictional request
+2026-09-05T17:05:00+00:00,203.0.113.60,user4,login,blocked,/api/status,Normal fictional request
+2026-09-05T20:12:00+00:00,192.0.2.10,user5,http request,success,/home,Normal fictional request
+2026-09-05T23:19:00+00:00,192.0.2.10,user6,login,success,/dashboard,Normal fictional request
+2026-09-06T02:26:00+00:00,192.0.2.10,user7,login,success,/reports,Normal fictional request
+2026-09-06T05:33:00+00:00,198.51.100.20,user8,logout,success,/api/status,Normal fictional request
+2026-09-06T08:40:00+00:00,198.51.100.20,user1,http request,blocked,/home,Normal fictional request
+2026-09-06T11:47:00+00:00,198.51.100.20,user2,login,success,/dashboard,Normal fictional request
+2026-09-06T14:54:00+00:00,203.0.113.30,user3,logout,success,/reports,Normal fictional request
+2026-09-06T17:01:00+00:00,203.0.113.30,user4,login,success,/api/status,Normal fictional request
+2026-09-06T20:08:00+00:00,203.0.113.30,user5,http request,success,/home,Normal fictional request
+2026-09-06T23:15:00+00:00,192.0.2.40,user6,logout,blocked,/dashboard,Normal fictional request
+2026-09-07T02:22:00+00:00,192.0.2.40,user7,login,success,/reports,Normal fictional request
+2026-09-07T05:29:00+00:00,192.0.2.40,user8,login,success,/api/status,Normal fictional request
+2026-09-07T08:36:00+00:00,198.51.100.50,user1,http request,success,/home,Normal fictional request
+2026-09-07T11:43:00+00:00,198.51.100.50,user2,login,success,/dashboard,Normal fictional request
+2026-09-07T14:50:00+00:00,198.51.100.50,user3,login,blocked,/reports,Normal fictional request
+2026-09-07T17:57:00+00:00,203.0.113.60,user4,logout,success,/api/status,Normal fictional request
+2026-09-07T20:04:00+00:00,203.0.113.60,user5,http request,success,/home,Normal fictional request
+2026-09-07T23:11:00+00:00,203.0.113.60,user6,login,success,/dashboard,Normal fictional request
+2026-09-08T02:18:00+00:00,192.0.2.10,user7,logout,success,/reports,Normal fictional request
+2026-09-08T05:25:00+00:00,192.0.2.10,user8,login,blocked,/api/status,Normal fictional request
+2026-09-08T08:32:00+00:00,192.0.2.10,user1,http request,success,/home,Normal fictional request
+2026-09-08T11:39:00+00:00,198.51.100.20,user2,logout,success,/dashboard,Normal fictional request
+2026-09-08T14:46:00+00:00,198.51.100.20,user3,login,success,/reports,Normal fictional request
+2026-09-08T17:53:00+00:00,198.51.100.20,user4,login,success,/api/status,Normal fictional request
+2026-09-08T20:00:00+00:00,203.0.113.30,user5,http request,blocked,/home,Normal fictional request
+2026-09-08T23:07:00+00:00,203.0.113.30,user6,login,success,/dashboard,Normal fictional request
+2026-09-09T02:14:00+00:00,203.0.113.30,user7,login,success,/reports,Normal fictional request
+2026-09-09T05:21:00+00:00,192.0.2.40,user8,logout,success,/api/status,Normal fictional request
+2026-09-09T08:28:00+00:00,192.0.2.40,user1,http request,success,/home,Normal fictional request
+2026-09-09T11:35:00+00:00,192.0.2.40,user2,login,blocked,/dashboard,Normal fictional request
+2026-09-09T14:42:00+00:00,198.51.100.50,user3,logout,success,/reports,Normal fictional request
+2026-09-09T17:49:00+00:00,198.51.100.50,user4,login,success,/api/status,Normal fictional request
+2026-09-09T20:56:00+00:00,198.51.100.50,user5,http request,success,/home,Normal fictional request
+2026-09-09T23:03:00+00:00,203.0.113.60,user6,logout,success,/dashboard,Normal fictional request
+2026-09-10T02:10:00+00:00,203.0.113.60,user7,login,blocked,/reports,Normal fictional request
+2026-09-10T05:17:00+00:00,203.0.113.60,user8,login,success,/api/status,Normal fictional request
+2026-09-10T08:24:00+00:00,192.0.2.10,user1,http request,success,/home,Normal fictional request
+2026-09-10T11:31:00+00:00,192.0.2.10,user2,login,success,/dashboard,Normal fictional request
+2026-09-10T14:38:00+00:00,192.0.2.10,user3,login,success,/reports,Normal fictional request
+2026-09-10T17:45:00+00:00,198.51.100.20,user4,logout,blocked,/api/status,Normal fictional request
+2026-09-10T20:52:00+00:00,198.51.100.20,user5,http request,success,/home,Normal fictional request
+2026-09-10T23:59:00+00:00,198.51.100.20,user6,login,success,/dashboard,Normal fictional request
+2026-09-11T02:06:00+00:00,203.0.113.30,user7,logout,success,/reports,Normal fictional request
+2026-09-11T05:13:00+00:00,203.0.113.30,user8,login,success,/api/status,Normal fictional request
+2026-09-01T08:20:00+00:00,203.0.113.30,user1,http request,blocked,/home,Normal fictional request
+2026-09-01T11:27:00+00:00,192.0.2.40,user2,logout,success,/dashboard,Normal fictional request
+2026-09-01T14:34:00+00:00,192.0.2.40,user3,login,success,/reports,Normal fictional request
+2026-09-01T17:41:00+00:00,192.0.2.40,user4,login,success,/api/status,Normal fictional request
+2026-09-01T20:48:00+00:00,198.51.100.50,user5,http request,success,/home,Normal fictional request
+2026-09-01T23:55:00+00:00,198.51.100.50,user6,login,blocked,/dashboard,Normal fictional request
+2026-09-02T02:02:00+00:00,198.51.100.50,user7,login,success,/reports,Normal fictional request
+2026-09-02T05:09:00+00:00,203.0.113.60,user8,logout,success,/api/status,Normal fictional request
+2026-09-02T08:16:00+00:00,203.0.113.60,user1,http request,success,/home,Normal fictional request
+2026-09-02T11:23:00+00:00,203.0.113.60,user2,login,success,/dashboard,Normal fictional request
+2026-09-02T14:30:00+00:00,192.0.2.10,user3,logout,blocked,/reports,Normal fictional request
+2026-09-02T17:37:00+00:00,192.0.2.10,user4,login,success,/api/status,Normal fictional request
+2026-09-02T20:44:00+00:00,192.0.2.10,user5,http request,success,/home,Normal fictional request
+2026-09-02T23:51:00+00:00,198.51.100.20,user6,logout,success,/dashboard,Normal fictional request
+2026-09-03T02:58:00+00:00,198.51.100.20,user7,login,success,/reports,Normal fictional request
+2026-09-03T05:05:00+00:00,198.51.100.20,user8,login,blocked,/api/status,Normal fictional request
+2026-09-03T08:12:00+00:00,203.0.113.30,user1,http request,success,/home,Normal fictional request
+2026-09-03T11:19:00+00:00,203.0.113.30,user2,login,success,/dashboard,Normal fictional request
+2026-09-03T14:26:00+00:00,203.0.113.30,user3,login,success,/reports,Normal fictional request
+2026-09-03T17:33:00+00:00,192.0.2.40,user4,logout,success,/api/status,Normal fictional request
+2026-09-03T20:40:00+00:00,192.0.2.40,user5,http request,blocked,/home,Normal fictional request
+2026-09-03T23:47:00+00:00,192.0.2.40,user6,login,success,/dashboard,Normal fictional request
+2026-09-04T02:54:00+00:00,198.51.100.50,user7,logout,success,/reports,Normal fictional request
+2026-09-04T05:01:00+00:00,198.51.100.50,user8,login,success,/api/status,Normal fictional request
+2026-09-04T08:08:00+00:00,198.51.100.50,user1,http request,success,/home,Normal fictional request
+2026-09-04T11:15:00+00:00,203.0.113.60,user2,logout,blocked,/dashboard,Normal fictional request
+2026-09-04T14:22:00+00:00,203.0.113.60,user3,login,success,/reports,Normal fictional request
+2026-09-04T17:29:00+00:00,203.0.113.60,user4,login,success,/api/status,Normal fictional request
+2026-09-04T20:36:00+00:00,192.0.2.10,user5,http request,success,/home,Normal fictional request
+2026-09-04T23:43:00+00:00,192.0.2.10,user6,login,success,/dashboard,Normal fictional request
+2026-09-05T02:50:00+00:00,192.0.2.10,user7,login,blocked,/reports,Normal fictional request
+2026-09-05T05:57:00+00:00,198.51.100.20,user8,logout,success,/api/status,Normal fictional request
+2026-09-05T08:04:00+00:00,198.51.100.20,user1,http request,success,/home,Normal fictional request
+2026-09-05T11:11:00+00:00,198.51.100.20,user2,login,success,/dashboard,Normal fictional request
+2026-09-05T14:18:00+00:00,203.0.113.30,user3,logout,success,/reports,Normal fictional request
+2026-09-05T17:25:00+00:00,203.0.113.30,user4,login,blocked,/api/status,Normal fictional request
+2026-09-05T20:32:00+00:00,203.0.113.30,user5,http request,success,/home,Normal fictional request
+2026-09-05T23:39:00+00:00,192.0.2.40,user6,logout,success,/dashboard,Normal fictional request
+2026-09-06T02:46:00+00:00,192.0.2.40,user7,login,success,/reports,Normal fictional request
+2026-09-06T05:53:00+00:00,192.0.2.40,user8,login,success,/api/status,Normal fictional request
+2026-09-06T08:00:00+00:00,198.51.100.50,user1,http request,blocked,/home,Normal fictional request
+2026-09-06T11:07:00+00:00,198.51.100.50,user2,login,success,/dashboard,Normal fictional request
+2026-09-06T14:14:00+00:00,198.51.100.50,user3,login,success,/reports,Normal fictional request
+2026-09-06T17:21:00+00:00,203.0.113.60,user4,logout,success,/api/status,Normal fictional request
+2026-09-06T20:28:00+00:00,203.0.113.60,user5,http request,success,/home,Normal fictional request
+2026-09-06T23:35:00+00:00,203.0.113.60,user6,login,blocked,/dashboard,Normal fictional request
+2026-09-07T02:42:00+00:00,192.0.2.10,user7,logout,success,/reports,Normal fictional request
+2026-09-07T05:49:00+00:00,192.0.2.10,user8,login,success,/api/status,Normal fictional request
+2026-09-07T08:56:00+00:00,192.0.2.10,user1,http request,success,/home,Normal fictional request
+2026-09-07T11:03:00+00:00,198.51.100.20,user2,logout,success,/dashboard,Normal fictional request
+2026-09-07T14:10:00+00:00,198.51.100.20,user3,login,blocked,/reports,Normal fictional request
+2026-09-07T17:17:00+00:00,198.51.100.20,user4,login,success,/api/status,Normal fictional request
+2026-09-07T20:24:00+00:00,203.0.113.30,user5,http request,success,/home,Normal fictional request
+2026-09-07T23:31:00+00:00,203.0.113.30,user6,login,success,/dashboard,Normal fictional request
+2026-09-08T02:38:00+00:00,203.0.113.30,user7,login,success,/reports,Normal fictional request
+2026-09-08T05:45:00+00:00,192.0.2.40,user8,logout,blocked,/api/status,Normal fictional request
+2026-09-08T08:52:00+00:00,192.0.2.40,user1,http request,success,/home,Normal fictional request
+2026-09-08T11:59:00+00:00,192.0.2.40,user2,login,success,/dashboard,Normal fictional request
+2026-09-08T14:06:00+00:00,198.51.100.50,user3,logout,success,/reports,Normal fictional request
+2026-09-08T17:13:00+00:00,198.51.100.50,user4,login,success,/api/status,Normal fictional request
+2026-09-08T20:20:00+00:00,198.51.100.50,user5,http request,blocked,/home,Normal fictional request
+2026-09-08T23:27:00+00:00,203.0.113.60,user6,logout,success,/dashboard,Normal fictional request
+2026-09-09T02:34:00+00:00,203.0.113.60,user7,login,success,/reports,Normal fictional request
+2026-09-09T05:41:00+00:00,203.0.113.60,user8,login,success,/api/status,Normal fictional request
+2026-09-09T08:48:00+00:00,192.0.2.10,user1,http request,success,/home,Normal fictional request
+2026-09-09T11:55:00+00:00,192.0.2.10,user2,login,blocked,/dashboard,Normal fictional request
+2026-09-09T14:02:00+00:00,192.0.2.10,user3,login,success,/reports,Normal fictional request
+2026-09-09T17:09:00+00:00,198.51.100.20,user4,logout,success,/api/status,Normal fictional request
+2026-09-09T20:16:00+00:00,198.51.100.20,user5,http request,success,/home,Normal fictional request
+2026-09-09T23:23:00+00:00,198.51.100.20,user6,login,success,/dashboard,Normal fictional request
+2026-09-10T02:30:00+00:00,203.0.113.30,user7,logout,blocked,/reports,Normal fictional request
+2026-09-10T05:37:00+00:00,203.0.113.30,user8,login,success,/api/status,Normal fictional request
+2026-09-10T08:44:00+00:00,203.0.113.30,user1,http request,success,/home,Normal fictional request
+2026-09-10T11:51:00+00:00,192.0.2.40,user2,logout,success,/dashboard,Normal fictional request
+2026-09-10T14:58:00+00:00,192.0.2.40,user3,login,success,/reports,Normal fictional request
+2026-09-10T17:05:00+00:00,192.0.2.40,user4,login,blocked,/api/status,Normal fictional request
+2026-09-10T20:12:00+00:00,198.51.100.50,user5,http request,success,/home,Normal fictional request
+2026-09-10T23:19:00+00:00,198.51.100.50,user6,login,success,/dashboard,Normal fictional request
+2026-09-11T02:26:00+00:00,198.51.100.50,user7,login,success,/reports,Normal fictional request
+2026-09-11T05:33:00+00:00,203.0.113.60,user8,logout,success,/api/status,Normal fictional request
+2026-09-01T08:40:00+00:00,203.0.113.60,user1,http request,blocked,/home,Normal fictional request
+2026-09-01T11:47:00+00:00,203.0.113.60,user2,login,success,/dashboard,Normal fictional request
+2026-09-01T14:54:00+00:00,192.0.2.10,user3,logout,success,/reports,Normal fictional request
+2026-09-01T17:01:00+00:00,192.0.2.10,user4,login,success,/api/status,Normal fictional request
+2026-09-01T20:08:00+00:00,192.0.2.10,user5,http request,success,/home,Normal fictional request
+2026-09-01T23:15:00+00:00,198.51.100.20,user6,logout,blocked,/dashboard,Normal fictional request
+2026-09-02T02:22:00+00:00,198.51.100.20,user7,login,success,/reports,Normal fictional request
+2026-09-02T05:29:00+00:00,198.51.100.20,user8,login,success,/api/status,Normal fictional request
+2026-09-02T08:36:00+00:00,203.0.113.30,user1,http request,success,/home,Normal fictional request
+2026-09-02T11:43:00+00:00,203.0.113.30,user2,login,success,/dashboard,Normal fictional request
+2026-09-02T08:00:00+00:00,203.0.113.60,demo-user,login,failed,/login,Fictional failed login
+2026-09-02T08:01:00+00:00,203.0.113.60,demo-user,login,failed,/login,Fictional failed login
+2026-09-02T08:02:00+00:00,203.0.113.60,demo-user,login,failed,/login,Fictional failed login
+2026-09-02T08:03:00+00:00,203.0.113.60,demo-user,login,failed,/login,Fictional failed login
+2026-09-02T08:04:00+00:00,203.0.113.60,demo-user,login,failed,/login,Fictional failed login
+2026-09-03T08:00:00+00:00,198.51.100.50,analyst,resource access,success,/admin/restricted,Fictional restricted resource event
+2026-09-04T08:00:00+00:00,203.0.113.30,demo-user,privilege escalation attempt,blocked,/account/role,Fictional privilege escalation attempt
+2026-09-05T08:00:00+00:00,192.0.2.40,guest,http request,blocked,/search,Fictional suspicious input: ../private
